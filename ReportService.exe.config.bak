@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.8" />
+    </startup>
+	<appSettings>
+  <add key="HostSmtp" value="smtp.gmail.com" />
+  <add key="Port" value="587" />
+  <add key="EnableSsl" value="true" />
+  <add key="SenderName" value="ReportService" />
+  <add key="SenderEmail" value="reportservice85@gmail.com" />
+  <add key="SenderEmailPassword" value="3v2iGYIRYLVB/lMV1gnnclj53UCogGOxRApcUnkjz+YRM4q3R/KFdfBuvdsPau9ZZowf1DRkbkmoYmAMjoWLYJZoe+cCmqt9FKTfvmIXIRJlSkHZ8FnFhSzmA/LLPDWj" />
+  <add key="ReceiverEmail" value="zaczorr@gmail.com" />
+  <add key="SendHours" value="8" />
+  <add key="IntervalInMinutesForSendingErrors" value="1" />
+  <add key="toSend" value="true" />
+ </appSettings>
+</configuration>
